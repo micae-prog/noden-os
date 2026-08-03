@@ -1,0 +1,4 @@
+
+> deskcomm-crm@0.1.0 typecheck /Users/micael/Noden OS-canais
+> tsc --noEmit
+

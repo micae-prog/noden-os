@@ -1,0 +1,24 @@
+# Reduz o contexto de build e — crítico — mantém segredos fora da imagem.
+# Sem isto o `next build` carregaria .env.local e embutiria/vazaria segredos.
+node_modules
+.next
+.git
+.claude
+.agents
+.codex
+.env
+.env.*
+test-results
+tests
+playwright.config.ts
+*.png
+*.log
+.lina
+docs
+evidence
+loop
+plan
+tasks
+HANDOFF*.md
+scratchpad
+.vercel
